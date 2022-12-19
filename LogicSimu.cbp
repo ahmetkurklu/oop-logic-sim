@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LogicSimu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="apps/main.cpp" />
+		<Unit filename="include/Composant.h" />
+		<Unit filename="include/Evenement.h" />
+		<Unit filename="include/Input.h" />
+		<Unit filename="include/Net.h" />
+		<Unit filename="include/Output.h" />
+		<Unit filename="include/PorteAND.h" />
+		<Unit filename="include/PorteNAND.h" />
+		<Unit filename="include/PorteNOR.h" />
+		<Unit filename="include/PorteNOT.h" />
+		<Unit filename="include/PorteOR.h" />
+		<Unit filename="src/Composant.cpp" />
+		<Unit filename="src/Evenement.cpp" />
+		<Unit filename="src/Input.cpp" />
+		<Unit filename="src/Net.cpp" />
+		<Unit filename="src/Output.cpp" />
+		<Unit filename="src/PorteAND.cpp" />
+		<Unit filename="src/PorteNAND.cpp" />
+		<Unit filename="src/PorteNOR.cpp" />
+		<Unit filename="src/PorteNOT.cpp" />
+		<Unit filename="src/PorteOR.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
