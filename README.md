@@ -34,3 +34,7 @@ At the end of the simulation we get a chronograme that looks like this:
 ![chrono](https://github.com/ahmetkurklu/oop-logic-sim/assets/24780090/290dbcaf-6388-4c0f-8bc0-517325870029)
 
 On 11 circuits our code was able to correctly simulate 10 circuits. 
+
+This is the architecture of our porject.
+
+![INFO_FINAL](https://github.com/ahmetkurklu/oop-logic-sim/assets/24780090/915a56b0-bdad-4cad-abdc-4b7864a097dd)
